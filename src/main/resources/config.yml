@@ -52,7 +52,7 @@ auto_add_missing_options: false
 # The number of players will be rounded up!
 # Example: 2 online players + this is set to 51 => 51% * 2 = 1,02 but it will be rounded up so: 2 players needed!
 # Default: 30
-percentage_needed: 30
+percentage_needed: 50
 
 
 # Set the time (in ticks) that players will have to remain in their beds when enough people are sleeping
@@ -71,7 +71,7 @@ bed_enter_delay: 10
 # Choose whether or not AFK players (Essentials is required) will be counted towards the amount of sleeping players needed
 # AFK time is not taken into account. Players may abuse this by setting themselves afk to lower the amount of required sleeping players
 # Default: true
-essentials_afk_support: true
+essentials_afk_support: false
 
 
 # Choose whether /bs night is enabled by default (only OP has access by default)
