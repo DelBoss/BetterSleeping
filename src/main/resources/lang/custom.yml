@@ -71,22 +71,22 @@
 # ----------------- #
 
 # A player receives this message when entering their bed
-bed_enter_message: "Sleep tight, <user>! (<num_sleeping>/<needed_sleeping>)"
+bed_enter_message: "Gute Nacht, <user>! (<num_sleeping>/<needed_sleeping>)"
 
 # All players in the same world get this message when someone enters their bed
-bed_enter_broadcast: "<player> is taking a nap, [<num_sleeping>.one player is.<num_sleeping> players are] sleeping now. <remaining_sleeping> [<remaining_sleeping>.sleeper.sleepers] needed."
+bed_enter_broadcast: "<player> schläft, [<num_sleeping>.one player is.<num_sleeping> players are] schlafen jetzt. <remaining_sleeping> [<remaining_sleeping>.sleeper.sleepers] nötig."
 
 # When not enough people are sleeping due to someone leaving their bed
-skipping_canceled: "Someone left their bed so the night will not be skipped! <remaining_sleeping> more sleeping [<remaining_sleeping>.player.players] needed!"
+skipping_canceled: "Jemand ist aufgewacht! Die nach wird nicht übersprungen!! <remaining_sleeping> more sleeping [<remaining_sleeping>.player.players] needed!"
 
 # This message is sent to all players in a world where enough players are sleeping
-enough_sleeping: "Enough players are sleeping now, the night will be over shortly."
+enough_sleeping: "Genug Spieler schlafen. Die Nacht wird übersprungen!"
 
 # Players receive this message in the morning
-morning_message: "Good morning, <user>. Have a great day!"
+morning_message: "Guten Morgen, <user>. Habe einen schönen tag!"
 
 # Players that try to enter their bed too quickly after getting out of it
-sleep_spam: "You have to wait <time> more [<time>.second.seconds] before you can sleep again!"
+sleep_spam: "Du musst noch <time> warten [<time>.second.seconds] bevor du wieder schlafen kannst!"
 
 
 # --------------- #
